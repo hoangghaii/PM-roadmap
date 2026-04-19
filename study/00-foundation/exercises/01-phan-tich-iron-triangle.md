@@ -33,14 +33,14 @@ Nghĩ về một dự án bạn từng tham gia với tư cách Developer (thự
 
 **Thông tin cơ bản:**
 
-| Mục | Thông tin của bạn |
-|---|---|
-| Tên dự án (ẩn danh nếu muốn) | |
-| Timeline dự kiến ban đầu | |
-| Timeline thực tế | |
-| Team size | |
-| Bạn đóng vai trò gì | |
-| Dự án giao hàng đúng hạn không? | Có / Không / Trễ ___ tuần |
+| Mục                             | Thông tin của bạn            |
+| ------------------------------- | ---------------------------- |
+| Tên dự án (ẩn danh nếu muốn)    |                              |
+| Timeline dự kiến ban đầu        |                              |
+| Timeline thực tế                |                              |
+| Team size                       |                              |
+| Bạn đóng vai trò gì             |                              |
+| Dự án giao hàng đúng hạn không? | Có / Không / Trễ \_\_\_ tuần |
 
 ---
 
@@ -74,25 +74,25 @@ Bị cắt / defer sang phase sau:
 
 Cố nhớ lại từng lần — ai yêu cầu, lý do gì, và tác động của nó.
 
-| # | Ai yêu cầu | Thay đổi gì | Tác động thực tế |
-|---|---|---|---|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
+| #   | Ai yêu cầu | Thay đổi gì | Tác động thực tế |
+| --- | ---------- | ----------- | ---------------- |
+| 1   |            |             |                  |
+| 2   |            |             |                  |
+| 3   |            |             |                  |
 
 ---
 
 **Câu 4: Timeline bị ảnh hưởng như thế nào?**
 
-- Deadline gốc: ___
-- Deadline thực tế delivery: ___
+- Deadline gốc: \_\_\_
+- Deadline thực tế delivery: \_\_\_
 - Lý do chính gây trễ (nếu có):
   - [ ] Scope thay đổi
   - [ ] Underestimate kỹ thuật
   - [ ] Resource thiếu hoặc thay đổi
   - [ ] Bug / technical issue lớn
   - [ ] External dependency (API bên thứ 3, approval từ đối tác, v.v.)
-  - [ ] Khác: ___
+  - [ ] Khác: \_\_\_
 
 ---
 
@@ -144,6 +144,7 @@ Tôi sẽ làm khác ở điểm [X] vì [lý do Y], với kết quả kỳ vọ
 ```
 
 Ví dụ:
+
 > "Tôi sẽ document rõ scope baseline trong tuần đầu và yêu cầu mọi thay đổi đi qua formal change request. Khi scope tăng 3 lần trong tháng 2 mà không có thêm time/budget, tôi sẽ escalate sớm hơn thay vì để team làm overtime."
 
 ---
@@ -228,6 +229,7 @@ Bạn là PM cho dự án phát triển app mobile 6 tháng cho một retail cha
 Tháng 3/6 (đúng nửa chừng), CFO thông báo qua email: do tình hình kinh tế khó khăn và doanh thu Q1 giảm 25%, toàn bộ project budget bị cắt 30%. Budget còn lại: 560 triệu, không thể thương lượng thêm.
 
 Hiện tại (sau 3 tháng), dự án đã hoàn thành:
+
 - iOS app: 70% (còn thiếu payment integration và loyalty program)
 - Android app: 50% (còn thiếu offline mode, payment, loyalty program)
 - Backend API: 80% (còn thiếu analytics engine và admin dashboard)
@@ -270,6 +272,7 @@ Sau khi dev chính nghỉ:
 **Meeting khẩn với dev nghỉ (trong hôm nay):**
 
 Hỏi và document lại:
+
 - Tình trạng hiện tại của phần code anh ấy đang làm (% hoàn thành)
 - Technical debt, edge cases chưa handle
 - Những phần nào phức tạp nhất (payment gateway flow, error handling)
@@ -284,18 +287,19 @@ Hỏi và document lại:
 
 ### Bước 3: Phân Tích 4 Options
 
-| Option | Mô tả | Pros | Cons | Khả thi? |
-|---|---|---|---|---|
-| **A** | Thuê outsource developer thay thế ngay | Giữ scope + timeline | Ramp-up 2–3 tuần, tìm người tin tưởng khó, tốn chi phí thêm ~50–80 triệu | Khó — 2 tuần ramp-up ăn hết thời gian handover |
-| **B** | Cắt scope — chỉ ship core payment flow trước Tết | Giữ deadline, ship được MVP thực sự | Một số feature đã promise không có, user experience kém hơn | Khả thi nhất |
-| **C** | Push deadline thêm 4–6 tuần (sau Tết) | Giữ full scope, quality tốt hơn | Mất market timing — Tết là peak season, khó recover | Tệ nhất về business |
-| **D** | Để team hiện tại cố làm hết trong 6 tuần (overtime) | Giữ deadline và scope | Team burnout, quality thấp, rủi ro bugs critical khi launch, mất team sau đó | Không nên — sustainable |
+| Option | Mô tả                                               | Pros                                | Cons                                                                         | Khả thi?                                       |
+| ------ | --------------------------------------------------- | ----------------------------------- | ---------------------------------------------------------------------------- | ---------------------------------------------- |
+| **A**  | Thuê outsource developer thay thế ngay              | Giữ scope + timeline                | Ramp-up 2–3 tuần, tìm người tin tưởng khó, tốn chi phí thêm ~50–80 triệu     | Khó — 2 tuần ramp-up ăn hết thời gian handover |
+| **B**  | Cắt scope — chỉ ship core payment flow trước Tết    | Giữ deadline, ship được MVP thực sự | Một số feature đã promise không có, user experience kém hơn                  | Khả thi nhất                                   |
+| **C**  | Push deadline thêm 4–6 tuần (sau Tết)               | Giữ full scope, quality tốt hơn     | Mất market timing — Tết là peak season, khó recover                          | Tệ nhất về business                            |
+| **D**  | Để team hiện tại cố làm hết trong 6 tuần (overtime) | Giữ deadline và scope               | Team burnout, quality thấp, rủi ro bugs critical khi launch, mất team sau đó | Không nên — sustainable                        |
 
 ### Bước 4: Recommendation
 
 **Khuyến nghị: Option B (cắt scope) kết hợp một phần Option A.**
 
 Phân tích cụ thể:
+
 - **Must Have (ship trước Tết):** Đăng ký tài khoản, nạp tiền, thanh toán QR, lịch sử giao dịch cơ bản
 - **Should Have (ship sau Tết 2–3 tuần):** Push notification, referral program
 - **Defer sang v1.5:** Analytics dashboard, loyalty tiers
@@ -309,6 +313,7 @@ Phân tích cụ thể:
 > "Chúng ta có một rủi ro nghiêm trọng cần quyết định ngay. [Dev tên X] vừa thông báo nghỉ việc, sẽ ở lại 2 tuần để handover. Phần anh ấy phụ trách (payment gateway integration) là core nhất của app và chiếm ~25% còn lại.
 >
 > Tôi đã ngồi với tech lead để assess. Có 3 options:
+>
 > 1. Cắt scope về MVP tối thiểu, giữ deadline Tết — team khả thi, rủi ro thấp
 > 2. Thuê outsource ngay — khó tìm người đúng, ramp-up tốn 2–3 tuần, thêm ~60–80 triệu
 > 3. Push deadline 6 tuần — mất timing Tết
@@ -349,6 +354,7 @@ TƯ DUY PM
 ```
 
 **Điểm:**
+
 - 13–15 ✓ : Tư duy PM tốt, tiếp tục phát triển
 - 9–12 ✓ : Đang đúng hướng, cần luyện thêm phân tích trade-off
 - 5–8 ✓ : Cần đọc lại lý thuyết và thực hành thêm scenarios
@@ -356,4 +362,4 @@ TƯ DUY PM
 
 ---
 
-*Tiếp theo: [02-phong-van-pm.md](./02-phong-van-pm.md) — Học từ người đang làm PM thực tế*
+_Tiếp theo: [02-phong-van-pm.md](./02-phong-van-pm.md) — Học từ người đang làm PM thực tế_
