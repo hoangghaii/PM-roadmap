@@ -19,6 +19,7 @@ Tên "MoSCoW" là acronym từ 4 categories:
 **Lưu ý quan trọng:** Must have thường chỉ nên chiếm **60–70% capacity** của sprint/release. Nếu Must have đã 100% capacity thì bạn đang set up team để fail.
 
 **Ví dụ:**
+
 - Hệ thống đăng nhập/xác thực người dùng
 - Tính năng thanh toán core của e-commerce
 - Migrate dữ liệu khách hàng trước khi cutover
@@ -33,6 +34,7 @@ Tên "MoSCoW" là acronym từ 4 categories:
 **Test câu hỏi:** "Nếu không có cái này, release có bị ảnh hưởng nghiêm trọng không?" — Nếu có workaround → Should have.
 
 **Ví dụ:**
+
 - Email notification khi đơn hàng được giao
 - Export báo cáo ra Excel (có thể xem online trước)
 - Performance optimization (hệ thống chạy chậm hơn mong đợi nhưng vẫn chạy)
@@ -47,6 +49,7 @@ Tên "MoSCoW" là acronym từ 4 categories:
 **Test câu hỏi:** "Có bao nhiêu users sẽ thực sự dùng cái này trong 30 ngày đầu?" — Nếu ít → Could have.
 
 **Ví dụ:**
+
 - Dark mode
 - Keyboard shortcuts
 - Tùy chỉnh màu sắc dashboard
@@ -61,6 +64,7 @@ Tên "MoSCoW" là acronym từ 4 categories:
 **Tại sao cần W?** Vì stakeholders hay "thêm" requirements mà không "bỏ" — W buộc cả hai phía đồng ý về những gì không nằm trong scope.
 
 **Ví dụ:**
+
 - Mobile app (giai đoạn này chỉ làm web)
 - Integration với SAP (sau khi ổn định hệ thống mới)
 - Multi-language support (phase 2)
@@ -190,13 +194,13 @@ CẤP    Q4               │        Q3
 
 ### So Sánh MoSCoW vs Eisenhower
 
-| Tiêu chí | MoSCoW | Eisenhower Matrix |
-|---|---|---|
-| **Dùng cho** | Requirements, features, deliverables | Tasks cá nhân hàng ngày |
-| **Thời điểm dùng** | Planning phase, sprint planning | Daily/weekly planning |
-| **Participants** | Cả team + stakeholders | Cá nhân PM |
-| **Output** | Scope agreement | Priority to-do list |
-| **Tần suất review** | Mỗi sprint/release | Hàng ngày/tuần |
+| Tiêu chí            | MoSCoW                               | Eisenhower Matrix       |
+| ------------------- | ------------------------------------ | ----------------------- |
+| **Dùng cho**        | Requirements, features, deliverables | Tasks cá nhân hàng ngày |
+| **Thời điểm dùng**  | Planning phase, sprint planning      | Daily/weekly planning   |
+| **Participants**    | Cả team + stakeholders               | Cá nhân PM              |
+| **Output**          | Scope agreement                      | Priority to-do list     |
+| **Tần suất review** | Mỗi sprint/release                   | Hàng ngày/tuần          |
 
 ---
 
@@ -211,7 +215,7 @@ Time blocking là kỹ thuật **đặt trước thời gian** trong calendar ch
 08:00  [Review       [Deep       [Review     [Deep       [Weekly
 08:30   emails &      Work:       emails &    Work:       Review &
 09:00   plan day]     WBS/        plan day]   Docs]       Planning
-09:30                 Planning]              
+09:30                 Planning]
 10:00  [Team          ↓          [Team        ↓          [1:1 với
 10:30   Standup]               Standup]               PM/Mentor]
 11:00  [Admin:                  [Admin:
@@ -258,6 +262,7 @@ BACKLOG                 TODO              IN PROGRESS          DONE
 ```
 
 **Tips Jira cho Junior PM:**
+
 - Dùng **Labels** để tag MoSCoW category: `must-have`, `should-have`, `could-have`
 - Dùng **Fix Version** để group items theo release
 - **Epic** = nhóm tính năng lớn; **Story** = yêu cầu người dùng; **Task** = công việc kỹ thuật
@@ -276,6 +281,7 @@ Boards cơ bản:
 ```
 
 **Tips Trello:**
+
 - Dùng **Color labels** cho MoSCoW (đỏ=Must, vàng=Should, xanh=Could, xám=Won't)
 - **Checklist** trong card cho sub-tasks
 - **Due dates** + Calendar Power-Up để xem deadline
@@ -285,12 +291,12 @@ Boards cơ bản:
 
 Template đơn giản:
 
-| ID | Requirement | Category | Priority Score | Status | Sprint |
-|---|---|---|---|---|---|
-| REQ-001 | User login | Must | 100 | Done | Sprint 1 |
-| REQ-002 | Export PDF | Should | 75 | In Progress | Sprint 2 |
-| REQ-003 | Dark mode | Could | 30 | Backlog | TBD |
-| REQ-004 | AI features | Won't | 0 | Out of scope | — |
+| ID      | Requirement | Category | Priority Score | Status       | Sprint   |
+| ------- | ----------- | -------- | -------------- | ------------ | -------- |
+| REQ-001 | User login  | Must     | 100            | Done         | Sprint 1 |
+| REQ-002 | Export PDF  | Should   | 75             | In Progress  | Sprint 2 |
+| REQ-003 | Dark mode   | Could    | 30             | Backlog      | TBD      |
+| REQ-004 | AI features | Won't    | 0              | Out of scope | —        |
 
 **Priority Score gợi ý:** Must=100, Should=75, Could=30, Won't=0
 
@@ -327,6 +333,7 @@ Backlog items (chưa phân loại):
 <summary>Xem đáp án gợi ý (thử tự làm trước!)</summary>
 
 **MUST HAVE:**
+
 - #11 SSO login (nền tảng cho mọi tính năng)
 - #3 Đăng ký nghỉ phép (nghiệp vụ core nhất của HR portal)
 - #4 Approve/reject nghỉ phép (phụ thuộc #3)
@@ -334,17 +341,20 @@ Backlog items (chưa phân loại):
 - #1 Xem bảng lương (lý do nhân viên dùng portal)
 
 **SHOULD HAVE:**
+
 - #2 Upload payslip hàng loạt (workflow cho HR)
 - #6 Báo cáo attendance (cần nhưng export Excel tạm được)
 - #9 Cập nhật thông tin cá nhân (self-service HR)
 - #10 Quản lý hợp đồng (quan trọng nhưng workaround được)
 
 **COULD HAVE:**
+
 - #7 Sơ đồ tổ chức (nice to have)
 - #12 Push notification (convenience)
 - #14 Báo cáo headcount (managers tự extract được)
 
 **WON'T HAVE:**
+
 - #8 Chat nội bộ (đã có Slack/Teams)
 - #13 Mobile app (phase 2 sau khi web ổn)
 - #15 Tích hợp kế toán (phức tạp, scope riêng)
