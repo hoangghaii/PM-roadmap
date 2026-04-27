@@ -9,24 +9,26 @@
 WBS (Work Breakdown Structure) là công cụ phân rã dự án từ một deliverable lớn thành các công việc nhỏ hơn, có thể thực hiện được, có thể assign cho người cụ thể, và có thể đo lường tiến độ rõ ràng.
 
 WBS KHÔNG phải:
+
 - Timeline hay Gantt chart (WBS là WHAT, Gantt là WHEN)
 - Process flow hay workflow (WBS là deliverable-oriented, không phải task-oriented)
 - Danh sách to-do random
 
 WBS LÀ:
+
 - Sơ đồ phân cấp (hierarchy) của tất cả deliverables và work packages
 - Nền tảng để estimate, schedule, và assign resource
 - Single source of truth: nếu không có trong WBS, không có trong scope
 
 **Lợi ích cụ thể:**
 
-| Lợi ích | Giải thích thực tế |
-|---|---|
-| Không bỏ sót công việc | Phân rã đến work package level buộc bạn phải nghĩ đến mọi thứ cần làm |
-| Estimate chính xác hơn | Estimate cho 1 task nhỏ 8 giờ dễ hơn estimate cho "toàn bộ module" |
-| Phân công rõ ràng | Mỗi work package có đúng 1 người chịu trách nhiệm — không có "ai cũng chịu" |
-| Theo dõi tiến độ dễ | % complete của project = (work packages done / total work packages) × 100 |
-| Kiểm soát scope | Mọi yêu cầu mới đều phải hỏi: "Nó thuộc work package nào trong WBS?" |
+| Lợi ích                | Giải thích thực tế                                                          |
+| ---------------------- | --------------------------------------------------------------------------- |
+| Không bỏ sót công việc | Phân rã đến work package level buộc bạn phải nghĩ đến mọi thứ cần làm       |
+| Estimate chính xác hơn | Estimate cho 1 task nhỏ 8 giờ dễ hơn estimate cho "toàn bộ module"          |
+| Phân công rõ ràng      | Mỗi work package có đúng 1 người chịu trách nhiệm — không có "ai cũng chịu" |
+| Theo dõi tiến độ dễ    | % complete của project = (work packages done / total work packages) × 100   |
+| Kiểm soát scope        | Mọi yêu cầu mới đều phải hỏi: "Nó thuộc work package nào trong WBS?"        |
 
 ---
 
@@ -35,6 +37,7 @@ WBS LÀ:
 **100% Rule:** WBS phải bao gồm 100% công việc của dự án — không thiếu, không thừa.
 
 Cụ thể:
+
 - Tổng công việc ở các level con = công việc của level cha
 - Không có công việc nào được làm mà không xuất hiện trong WBS
 - Không có công việc nào trong WBS mà không thuộc scope của dự án
@@ -95,11 +98,13 @@ Thường là 3–6 phases chính. Có hai cách phân chia phổ biến:
 **8-Hour Rule:** Mỗi work package nên có effort ≤ 8 giờ công (1 ngày làm việc). Nếu lớn hơn, phân nhỏ tiếp. Nếu nhỏ hơn 2 giờ, có thể gộp với task liên quan.
 
 Tại sao 8 giờ?
+
 - Dễ estimate chính xác hơn
 - Dễ track daily progress
 - Phát hiện blockers sớm hơn (nếu 1 task đã kéo 2 ngày vẫn chưa xong là có vấn đề)
 
 **Work Package cần có đủ thông tin:**
+
 - Tên rõ ràng (động từ + danh từ)
 - Deliverable cụ thể (sản phẩm đầu ra là gì)
 - Người chịu trách nhiệm (1 người, không phải "team")
@@ -116,6 +121,7 @@ Tại sao 8 giờ?
 - **Accountable (A):** Người chịu trách nhiệm cuối cùng nếu work package thất bại (thường là PM hoặc team lead)
 
 **Nguyên tắc:**
+
 - Mỗi work package chỉ có **đúng 1 Accountable**
 - Có thể có nhiều Responsible (nhiều người cùng làm)
 - PM không Responsible cho mọi thứ — PM là Accountable
@@ -126,15 +132,16 @@ Tại sao 8 giờ?
 
 Nhiều PM mới nhầm lẫn giữa hai khái niệm này:
 
-| | Work Package | Activity |
-|---|---|---|
-| **Là gì** | Đơn vị công việc nhỏ nhất trong WBS, có deliverable rõ ràng | Bước cụ thể để hoàn thành work package |
-| **Ví dụ** | "Implement login API" | "Viết unit test cho login API", "Code review", "Fix bug từ review" |
-| **Tracking** | Track ở WBS level | Track ở task management tool (Jira) |
-| **Duration** | ≤ 8 giờ (lý tưởng) | ≤ 2–4 giờ |
-| **Output** | Deliverable cụ thể, có thể verify | Contribution đến deliverable |
+|              | Work Package                                                | Activity                                                           |
+| ------------ | ----------------------------------------------------------- | ------------------------------------------------------------------ |
+| **Là gì**    | Đơn vị công việc nhỏ nhất trong WBS, có deliverable rõ ràng | Bước cụ thể để hoàn thành work package                             |
+| **Ví dụ**    | "Implement login API"                                       | "Viết unit test cho login API", "Code review", "Fix bug từ review" |
+| **Tracking** | Track ở WBS level                                           | Track ở task management tool (Jira)                                |
+| **Duration** | ≤ 8 giờ (lý tưởng)                                          | ≤ 2–4 giờ                                                          |
+| **Output**   | Deliverable cụ thể, có thể verify                           | Contribution đến deliverable                                       |
 
 **Khi nào xuống đến Activity level?**
+
 - Trong Agile: Jira Sub-tasks
 - Trong Waterfall: Activity List trong Project Schedule
 - Không nhất thiết phải trong WBS — WBS dừng ở Work Package level là đủ
@@ -164,6 +171,7 @@ Dùng hệ thống số để track và reference dễ dàng:
 ```
 
 **Quy tắc:**
+
 - Level 0: Project name (không đánh số)
 - Level 1: 1.0, 2.0, 3.0... (Major phases)
 - Level 2: 1.1, 1.2, 1.3... (Sub-deliverables)
@@ -417,13 +425,13 @@ WBS ID  Task                      Tuần 1  Tuần 2  Tuần 3  Tuần 4  Tuần
 
 **Tools để tạo Gantt từ WBS:**
 
-| Tool | Phù hợp cho | Ưu điểm | Nhược điểm |
-|---|---|---|---|
-| MS Project | Dự án phức tạp, nhiều dependencies | Đầy đủ tính năng, CPM tự động | Phức tạp, tốn tiền |
-| Excel / Google Sheets | Dự án nhỏ, team nhỏ | Miễn phí, flexible | Phải làm tay |
-| Jira (Epic/Story) | Agile projects | Tích hợp với backlog | Gantt view cần plugin |
-| Notion | Documentation-first teams | Flexible, đẹp | Gantt view hạn chế |
-| draw.io | Vẽ WBS diagram | Miễn phí, nhiều template | Chỉ diagram, không schedule |
+| Tool                  | Phù hợp cho                        | Ưu điểm                       | Nhược điểm                  |
+| --------------------- | ---------------------------------- | ----------------------------- | --------------------------- |
+| MS Project            | Dự án phức tạp, nhiều dependencies | Đầy đủ tính năng, CPM tự động | Phức tạp, tốn tiền          |
+| Excel / Google Sheets | Dự án nhỏ, team nhỏ                | Miễn phí, flexible            | Phải làm tay                |
+| Jira (Epic/Story)     | Agile projects                     | Tích hợp với backlog          | Gantt view cần plugin       |
+| Notion                | Documentation-first teams          | Flexible, đẹp                 | Gantt view hạn chế          |
+| draw.io               | Vẽ WBS diagram                     | Miễn phí, nhiều template      | Chỉ diagram, không schedule |
 
 ---
 
@@ -518,4 +526,4 @@ Bước 5: Kiểm tra 100% Rule
 
 ---
 
-*Tiếp theo: [05-stakeholder-management.md](./05-stakeholder-management.md) — Quản lý các bên liên quan*
+_Tiếp theo: [05-stakeholder-management.md](./05-stakeholder-management.md) — Quản lý các bên liên quan_
