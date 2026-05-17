@@ -12,6 +12,7 @@
 CAPM là chứng chỉ entry-level của PMI, được thiết kế dành cho những người **chưa có kinh nghiệm quản lý dự án chính thức** nhưng muốn bước vào ngành PM một cách bài bản. Nó là "anh em nhỏ" của PMP — giúp bạn học được nền tảng theo chuẩn PMBOK trước khi có đủ kinh nghiệm để thi PMP.
 
 **Tại sao nên lấy CAPM thay vì chờ đủ điều kiện PMP?**
+
 - Tăng độ uy tín CV khi apply PM roles cấp entry/junior
 - Buộc bạn học PMBOK một cách có hệ thống — kiến thức này vẫn cần cho PMP sau này
 - Thể hiện cam kết nghề nghiệp với nhà tuyển dụng
@@ -21,13 +22,14 @@ CAPM là chứng chỉ entry-level của PMI, được thiết kế dành cho nh
 
 ## Yêu Cầu Đầu Vào
 
-| Yêu cầu | Chi tiết |
-|---|---|
-| Bằng cấp | Tốt nghiệp THPT trở lên (không cần bằng ĐH) |
-| Kinh nghiệm PM | **Không yêu cầu** |
-| PM Education | **23 giờ học project management** (bắt buộc) |
+| Yêu cầu        | Chi tiết                                     |
+| -------------- | -------------------------------------------- |
+| Bằng cấp       | Tốt nghiệp THPT trở lên (không cần bằng ĐH)  |
+| Kinh nghiệm PM | **Không yêu cầu**                            |
+| PM Education   | **23 giờ học project management** (bắt buộc) |
 
 **23 giờ PM Education — Cách thỏa mãn:**
+
 - Mua khóa học Udemy: "CAPM Exam Prep" (~$15–20 khi giảm giá) — thường ghi rõ "23 contact hours"
 - Coursera/edX: Google Project Management Certificate (6 khóa, ~180 giờ — vượt xa yêu cầu)
 - PMI.org: Education providers chính thức
@@ -37,17 +39,18 @@ CAPM là chứng chỉ entry-level của PMI, được thiết kế dành cho nh
 
 ## Thông Tin Đề Thi
 
-| Thông số | Chi tiết |
-|---|---|
-| Số câu hỏi | 150 câu (bao gồm 15 câu pretest không tính điểm) |
-| Thời gian | 3 giờ (180 phút) |
-| Ngôn ngữ | Tiếng Anh (có thể chọn bản dịch hỗ trợ) |
-| Định dạng | Multiple choice, trắc nghiệm 4 đáp án |
-| Hình thức thi | Online proctored hoặc tại Pearson VUE center |
-| Điểm đậu | Không công bố tỷ lệ cụ thể — PMI dùng psychometric scoring |
-| Retake | Tối đa 3 lần trong 1 chu kỳ application |
+| Thông số      | Chi tiết                                                   |
+| ------------- | ---------------------------------------------------------- |
+| Số câu hỏi    | 150 câu (bao gồm 15 câu pretest không tính điểm)           |
+| Thời gian     | 3 giờ (180 phút)                                           |
+| Ngôn ngữ      | Tiếng Anh (có thể chọn bản dịch hỗ trợ)                    |
+| Định dạng     | Multiple choice, trắc nghiệm 4 đáp án                      |
+| Hình thức thi | Online proctored hoặc tại Pearson VUE center               |
+| Điểm đậu      | Không công bố tỷ lệ cụ thể — PMI dùng psychometric scoring |
+| Retake        | Tối đa 3 lần trong 1 chu kỳ application                    |
 
 **Nội dung đề thi (PMBOK 7 + Process Groups):**
+
 ```
 Process Groups:
 ├── Initiating                  ~13%
@@ -61,10 +64,10 @@ Process Groups:
 
 ## Chi Phí
 
-| Loại | Phí thi | PMI Membership |
-|---|---|---|
-| PMI Member | **$225** | $139/năm |
-| Non-Member | **$300** | — |
+| Loại       | Phí thi  | PMI Membership |
+| ---------- | -------- | -------------- |
+| PMI Member | **$225** | $139/năm       |
+| Non-Member | **$300** | —              |
 
 **Nên đăng ký PMI Member không?**
 Tiết kiệm: $300 - $225 = $75 (tiết kiệm tiền thi)
@@ -87,30 +90,30 @@ Phí membership: $139/năm
 
 ### Tháng 1 — Xây Nền Tảng
 
-| Tuần | Nội dung | Tài liệu | Mục tiêu |
-|---|---|---|---|
-| 1 | PMBOK 7: Principles + Performance Domains | PMBOK 7 (PMI.org, free cho member) | Hiểu 12 principles, 8 domains |
-| 2 | Process Groups: Initiating + Planning | Rita Mulcahy Chapter 3–4 | Thuộc input-tool-output chính |
-| 3 | Executing + Monitoring & Controlling | Rita Mulcahy Chapter 5–7 | Hiểu change control, EVM cơ bản |
-| 4 | Closing + Tích hợp ôn tập tháng 1 | Practice test 50 câu | Score ≥ 60% là bình thường |
+| Tuần | Nội dung                                  | Tài liệu                           | Mục tiêu                        |
+| ---- | ----------------------------------------- | ---------------------------------- | ------------------------------- |
+| 1    | PMBOK 7: Principles + Performance Domains | PMBOK 7 (PMI.org, free cho member) | Hiểu 12 principles, 8 domains   |
+| 2    | Process Groups: Initiating + Planning     | Rita Mulcahy Chapter 3–4           | Thuộc input-tool-output chính   |
+| 3    | Executing + Monitoring & Controlling      | Rita Mulcahy Chapter 5–7           | Hiểu change control, EVM cơ bản |
+| 4    | Closing + Tích hợp ôn tập tháng 1         | Practice test 50 câu               | Score ≥ 60% là bình thường      |
 
 ### Tháng 2 — Đào Sâu Knowledge Areas
 
-| Tuần | Nội dung | Tài liệu |
-|---|---|---|
-| 5 | Scope Management + Schedule Management | PMBOK 7, Udemy course |
-| 6 | Cost Management + Quality Management | Tập trung EVM formulas |
-| 7 | Resource + Communication + Risk | Risk matrix, stakeholder grid |
-| 8 | Procurement + Stakeholder + Integration | Practice test 75 câu |
+| Tuần | Nội dung                                | Tài liệu                      |
+| ---- | --------------------------------------- | ----------------------------- |
+| 5    | Scope Management + Schedule Management  | PMBOK 7, Udemy course         |
+| 6    | Cost Management + Quality Management    | Tập trung EVM formulas        |
+| 7    | Resource + Communication + Risk         | Risk matrix, stakeholder grid |
+| 8    | Procurement + Stakeholder + Integration | Practice test 75 câu          |
 
 ### Tháng 3 — Luyện Đề & Consolidate
 
-| Tuần | Nội dung | Mục tiêu |
-|---|---|---|
-| 9 | Full mock exam 150 câu lần 1 | Xác định điểm yếu |
-| 10 | Ôn tập các knowledge area yếu | Tăng điểm từng area lên ≥ 70% |
-| 11 | Full mock exam 150 câu lần 2 + 3 | Score ≥ 75% trước khi thi thật |
-| 12 | Review notes, flash cards, nghỉ ngơi | Thi thật |
+| Tuần | Nội dung                             | Mục tiêu                       |
+| ---- | ------------------------------------ | ------------------------------ |
+| 9    | Full mock exam 150 câu lần 1         | Xác định điểm yếu              |
+| 10   | Ôn tập các knowledge area yếu        | Tăng điểm từng area lên ≥ 70%  |
+| 11   | Full mock exam 150 câu lần 2 + 3     | Score ≥ 75% trước khi thi thật |
+| 12   | Review notes, flash cards, nghỉ ngơi | Thi thật                       |
 
 ---
 
@@ -118,27 +121,27 @@ Phí membership: $139/năm
 
 ### Sách
 
-| Sách | Tác giả | Nhận xét |
-|---|---|---|
-| PMBOK Guide 7th Edition | PMI | Bắt buộc — tải free nếu có PMI membership |
-| PMP/CAPM Exam Prep | Rita Mulcahy | ⭐⭐⭐⭐⭐ — Giải thích dễ hiểu hơn PMBOK nhiều, "bible" cho PMI exams |
-| Head First PMP | Jennifer Greene | Tốt cho visual learner, có nhiều hình ảnh minh họa |
+| Sách                    | Tác giả         | Nhận xét                                                               |
+| ----------------------- | --------------- | ---------------------------------------------------------------------- |
+| PMBOK Guide 7th Edition | PMI             | Bắt buộc — tải free nếu có PMI membership                              |
+| PMP/CAPM Exam Prep      | Rita Mulcahy    | ⭐⭐⭐⭐⭐ — Giải thích dễ hiểu hơn PMBOK nhiều, "bible" cho PMI exams |
+| Head First PMP          | Jennifer Greene | Tốt cho visual learner, có nhiều hình ảnh minh họa                     |
 
 ### Khóa Học Online
 
-| Khóa học | Platform | Chi phí | Đánh giá |
-|---|---|---|---|
-| CAPM Exam Prep by Joseph Phillips | Udemy | $15–20 | ⭐⭐⭐⭐ — Đủ 23 contact hours |
-| Google Project Management Certificate | Coursera | ~$50/tháng | ⭐⭐⭐⭐⭐ — Rất toàn diện, có certificate |
-| CAPM Prep by Andrew Ramdayal | Udemy | $15–20 | ⭐⭐⭐⭐⭐ — Tác giả giải thích kiểu "tư duy PM" |
+| Khóa học                              | Platform | Chi phí    | Đánh giá                                         |
+| ------------------------------------- | -------- | ---------- | ------------------------------------------------ |
+| CAPM Exam Prep by Joseph Phillips     | Udemy    | $15–20     | ⭐⭐⭐⭐ — Đủ 23 contact hours                   |
+| Google Project Management Certificate | Coursera | ~$50/tháng | ⭐⭐⭐⭐⭐ — Rất toàn diện, có certificate       |
+| CAPM Prep by Andrew Ramdayal          | Udemy    | $15–20     | ⭐⭐⭐⭐⭐ — Tác giả giải thích kiểu "tư duy PM" |
 
 ### Practice Tests
 
-| Platform | Số câu | Chi phí | Ghi chú |
-|---|---|---|---|
-| PMPrepCast Simulator | 1,600+ câu | $89 | Giải thích chi tiết từng câu |
-| Udemy Mock Tests | 500+ câu | $10–15 | Chấp nhận được |
-| PMI.org sample questions | 200 câu | Free | Câu hỏi chính thức của PMI |
+| Platform                 | Số câu     | Chi phí | Ghi chú                      |
+| ------------------------ | ---------- | ------- | ---------------------------- |
+| PMPrepCast Simulator     | 1,600+ câu | $89     | Giải thích chi tiết từng câu |
+| Udemy Mock Tests         | 500+ câu   | $10–15  | Chấp nhận được               |
+| PMI.org sample questions | 200 câu    | Free    | Câu hỏi chính thức của PMI   |
 
 ---
 
@@ -257,20 +260,24 @@ D) **Tổ chức meeting để align và tìm giải pháp đồng thuận, esca
 ## Tips Để Pass CAPM
 
 ### Mindset Đúng
+
 - **Không học theo kiểu "common sense"** — thi PMI hỏi bạn sẽ làm gì "theo cách PMI muốn", không phải thực tế bạn hay làm
 - Luôn hỏi: "Một PM tốt theo PMBOK sẽ làm gì?" → Thường là: follow the process, communicate, document
 
 ### Kỹ Thuật Làm Bài
+
 - Đọc kỹ câu hỏi: chú ý từ **"FIRST"**, **"BEST"**, **"NEXT"** — chúng thay đổi hoàn toàn đáp án
 - Loại trừ đáp án "cực đoan": tự ý làm mà không communicate, hoặc ngay lập tức escalate lên manager
 - Đáp án đúng thường có pattern: "review the plan", "follow change control", "communicate with stakeholders"
 
 ### Cạm Bẫy Thường Gặp
+
 - Nhầm lẫn Process Groups với Knowledge Areas
 - Không thuộc EVM formulas: CPI, SPI, EAC, ETC, VAC
 - Bỏ qua Procurement và Stakeholder Management — 2 area này thường ra nhiều câu
 
 ### Ngày Trước Khi Thi
+
 - Không học thêm tài liệu mới
 - Xem lại flash cards EVM formulas
 - Ngủ đủ giấc, ăn no trước khi thi

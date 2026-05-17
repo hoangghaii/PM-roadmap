@@ -18,23 +18,23 @@ Ví dụ không ngờ tới: Trưởng phòng IT security có thể là stakehol
 
 **Internal Stakeholders** (trong tổ chức):
 
-| Loại | Ví dụ cụ thể | Quan tâm chính |
-|---|---|---|
-| Executive sponsor | COO, CTO, CPO | ROI, strategic alignment, budget |
-| Project team | Dev, QA, Designer, BA | Clear requirements, unblocked work |
-| Business owner | Product Owner, Department head | Business goals, user satisfaction |
-| Support functions | IT, Legal, Finance, HR | Compliance, security, cost control |
-| End users (internal) | Sales team dùng CRM, warehouse staff | Ease of use, minimal disruption |
+| Loại                 | Ví dụ cụ thể                         | Quan tâm chính                     |
+| -------------------- | ------------------------------------ | ---------------------------------- |
+| Executive sponsor    | COO, CTO, CPO                        | ROI, strategic alignment, budget   |
+| Project team         | Dev, QA, Designer, BA                | Clear requirements, unblocked work |
+| Business owner       | Product Owner, Department head       | Business goals, user satisfaction  |
+| Support functions    | IT, Legal, Finance, HR               | Compliance, security, cost control |
+| End users (internal) | Sales team dùng CRM, warehouse staff | Ease of use, minimal disruption    |
 
 **External Stakeholders** (ngoài tổ chức):
 
-| Loại | Ví dụ cụ thể | Quan tâm chính |
-|---|---|---|
-| Khách hàng / Client | Doanh nghiệp thuê bạn build software | Delivery đúng hạn, đúng spec |
-| End users (external) | Người dùng app bạn build | UX tốt, tính năng họ cần |
-| Đối tác / Vendor | Payment gateway, cloud provider | Sử dụng đúng API/contract |
-| Cơ quan quản lý | Ngân hàng Nhà nước, Bộ TT&TT | Compliance với quy định |
-| Cổ đông | Investor của startup | ROI, burn rate, timeline to market |
+| Loại                 | Ví dụ cụ thể                         | Quan tâm chính                     |
+| -------------------- | ------------------------------------ | ---------------------------------- |
+| Khách hàng / Client  | Doanh nghiệp thuê bạn build software | Delivery đúng hạn, đúng spec       |
+| End users (external) | Người dùng app bạn build             | UX tốt, tính năng họ cần           |
+| Đối tác / Vendor     | Payment gateway, cloud provider      | Sử dụng đúng API/contract          |
+| Cơ quan quản lý      | Ngân hàng Nhà nước, Bộ TT&TT         | Compliance với quy định            |
+| Cổ đông              | Investor của startup                 | ROI, burn rate, timeline to market |
 
 ---
 
@@ -45,6 +45,7 @@ Ví dụ không ngờ tới: Trưởng phòng IT security có thể là stakehol
 **Secondary Stakeholders:** Gián tiếp bị ảnh hưởng — có thể có influence lớn nhưng không phải người dùng trực tiếp.
 
 Ví dụ dự án xây dựng portal nội bộ HR:
+
 - Primary: HR team (người dùng), CEO (sponsor, người duyệt budget)
 - Secondary: IT security (phải approve deployment), Finance (phải duyệt chi phí), Legal (phải review data privacy)
 
@@ -76,15 +77,16 @@ Hỏi PM của dự án trước: "Ai là stakeholder mà chúng ta không biế
 
 Tài liệu track tất cả stakeholders. Update liên tục trong suốt dự án.
 
-| ID | Tên | Vai trò | Bộ phận | Contact | Interest | Influence | Engagement Level |
-|---|---|---|---|---|---|---|---|
-| S01 | Nguyễn Thị Lan | Project Sponsor | Executive | lan@abc.com | Budget/ROI | Cao | Supportive |
-| S02 | Trần Văn Bình | End User Lead | Warehouse | binh@abc.com | Ease of use | TB | Neutral |
-| S03 | Lê Thu Hà | IT Director | IT | ha@abc.com | Security | Cao | Resistant |
-| S04 | Phạm Quang Minh | CFO | Finance | minh@abc.com | Cost control | TB | Unaware |
-| S05 | Đoàn Thị Cẩm | Warehouse Staff | Operations | cam@abc.com | Daily workflow | Thấp | Resistant |
+| ID  | Tên             | Vai trò         | Bộ phận    | Contact        | Interest       | Influence | Engagement Level |
+| --- | --------------- | --------------- | ---------- | -------------- | -------------- | --------- | ---------------- |
+| S01 | Nguyễn Thị Lan  | Project Sponsor | Executive  | <lan@abc.com>  | Budget/ROI     | Cao       | Supportive       |
+| S02 | Trần Văn Bình   | End User Lead   | Warehouse  | <binh@abc.com> | Ease of use    | TB        | Neutral          |
+| S03 | Lê Thu Hà       | IT Director     | IT         | <ha@abc.com>   | Security       | Cao       | Resistant        |
+| S04 | Phạm Quang Minh | CFO             | Finance    | <minh@abc.com> | Cost control   | TB        | Unaware          |
+| S05 | Đoàn Thị Cẩm    | Warehouse Staff | Operations | <cam@abc.com>  | Daily workflow | Thấp      | Resistant        |
 
 **Cột Engagement Level theo thang đo:**
+
 - **Unaware:** Chưa biết về dự án
 - **Resistant:** Biết nhưng chống đối
 - **Neutral:** Biết nhưng không có ý kiến
@@ -100,19 +102,19 @@ Tài liệu track tất cả stakeholders. Update liên tục trong suốt dự 
               │
               │    KEEP SATISFIED    │    MANAGE CLOSELY
               │  ──────────────────  │  ──────────────────
-              │  Sponsor thụ động   │  Executive sponsor
-              │  C-level không dùng │  Key client
-              │  Cơ quan quản lý    │  Khách hàng chính
-              │                     │  Tech Lead (nếu critical)
-              │                     │
-─────────────────────────────────────────────────────────
-              │                     │
-              │      MONITOR        │    KEEP INFORMED
+              │  Sponsor thụ động    │  Executive sponsor
+              │  C-level không dùng  │  Key client
+              │  Cơ quan quản lý     │  Khách hàng chính
+              │                      │  Tech Lead (nếu critical)
+              │                      │
+──────────────────────────────────────────────────────────────────
+              │                      │
+              │      MONITOR         │    KEEP INFORMED
               │  ──────────────────  │  ──────────────────
-              │  General public     │  End users
-              │  Vendor nhỏ         │  Dev team members
-              │  Government agency  │  QA team
-              │  (ít liên quan)     │  Secondary stakeholders
+              │  General public      │  End users
+              │  Vendor nhỏ          │  Dev team members
+              │  Government agency   │  QA team
+              │  (ít liên quan)      │  Secondary stakeholders
               │
          LOW POWER
               │
@@ -125,6 +127,7 @@ Tài liệu track tất cả stakeholders. Update liên tục trong suốt dự 
 Đây là những người có quyền lực — có thể kill dự án — nhưng không quan tâm đến chi tiết hàng ngày.
 
 **Chiến lược:**
+
 - Cập nhật định kỳ ngắn gọn (executive summary 1 trang, không phải báo cáo 20 trang)
 - Escalate issues đến họ chỉ khi thực sự cần quyết định ở level đó
 - Đừng surprise họ với bad news — họ ghét surprises hơn bad news
@@ -137,6 +140,7 @@ Tài liệu track tất cả stakeholders. Update liên tục trong suốt dự 
 Đây là những người quan trọng nhất — vừa có quyền lực vừa quan tâm sâu đến dự án. Invest nhiều thời gian nhất vào nhóm này.
 
 **Chiến lược:**
+
 - Regular 1:1 meetings (ít nhất bi-weekly)
 - Involve họ vào key decisions sớm — trước khi quyết định, không phải sau
 - Proactive communication: share bad news sớm, đừng để họ nghe từ nguồn khác
@@ -149,6 +153,7 @@ Tài liệu track tất cả stakeholders. Update liên tục trong suốt dự 
 Không cần invest nhiều thời gian, nhưng đừng bỏ qua hoàn toàn.
 
 **Chiến lược:**
+
 - Đưa vào distribution list cho monthly newsletter/update
 - Không cần invite vào meetings trừ khi họ liên quan trực tiếp
 - Nhưng: check định kỳ xem họ có "upgrade" lên quadrant khác không (ví dụ: government agency có thể suddenly trở nên High Power nếu có quy định mới)
@@ -158,6 +163,7 @@ Không cần invest nhiều thời gian, nhưng đừng bỏ qua hoàn toàn.
 Đây thường là end users và team members — những người bị ảnh hưởng nhiều nhất bởi outcome nhưng không có authority lớn.
 
 **Chiến lược:**
+
 - Regular updates qua newsletter nội bộ, Slack channel, hoặc demo sessions
 - Involve họ trong UAT — họ sẽ dùng sản phẩm hàng ngày
 - Lắng nghe feedback sớm — chờ đến demo cuối mới nghe feedback thường quá muộn
@@ -169,15 +175,15 @@ Không cần invest nhiều thời gian, nhưng đừng bỏ qua hoàn toàn.
 
 Đây là công cụ PM dùng để plan và track communication với tất cả stakeholders.
 
-| Stakeholder | Quan tâm gì | Báo cáo gì | Tần suất | Kênh | Format | Owner |
-|---|---|---|---|---|---|---|
-| Sponsor (COO) | Budget / timeline / ROI / strategic risk | Executive summary: % complete, spend vs plan, top 3 risks, decisions needed | Bi-weekly | Email + Meeting 30 phút | 1 trang PDF | PM |
-| Dev Team | Technical requirements / scope / blockers | Sprint planning, daily standup, sprint review | Daily + bi-weekly sprint | Slack + Jira + Meeting | Bullet points, Jira tickets | PM + Tech Lead |
-| End Users (key reps) | Tính năng, UX, training | Demo per milestone, training schedule | Per milestone (mỗi 4-6 tuần) | Meeting + Email | Live demo + slide | PM |
-| Khách hàng / Client | Deadline / cost / deliverable quality | Progress report: milestone status, issues, next steps | Weekly | Email + optional meeting | Dashboard / table | PM |
-| IT Director | Security, architecture, deployment requirements | Technical review checkpoint | Per major technical decision | Meeting + Email | Technical doc | PM + Tech Lead |
-| CFO / Finance | Budget burn rate, forecast | Monthly financial summary | Monthly | Email | 1-trang summary | PM |
-| QA Team | Test requirements, bug priorities | Bug report, test coverage | Daily | Jira + Slack | Jira dashboard | QA Lead |
+| Stakeholder          | Quan tâm gì                                     | Báo cáo gì                                                                  | Tần suất                     | Kênh                     | Format                      | Owner          |
+| -------------------- | ----------------------------------------------- | --------------------------------------------------------------------------- | ---------------------------- | ------------------------ | --------------------------- | -------------- |
+| Sponsor (COO)        | Budget / timeline / ROI / strategic risk        | Executive summary: % complete, spend vs plan, top 3 risks, decisions needed | Bi-weekly                    | Email + Meeting 30 phút  | 1 trang PDF                 | PM             |
+| Dev Team             | Technical requirements / scope / blockers       | Sprint planning, daily standup, sprint review                               | Daily + bi-weekly sprint     | Slack + Jira + Meeting   | Bullet points, Jira tickets | PM + Tech Lead |
+| End Users (key reps) | Tính năng, UX, training                         | Demo per milestone, training schedule                                       | Per milestone (mỗi 4-6 tuần) | Meeting + Email          | Live demo + slide           | PM             |
+| Khách hàng / Client  | Deadline / cost / deliverable quality           | Progress report: milestone status, issues, next steps                       | Weekly                       | Email + optional meeting | Dashboard / table           | PM             |
+| IT Director          | Security, architecture, deployment requirements | Technical review checkpoint                                                 | Per major technical decision | Meeting + Email          | Technical doc               | PM + Tech Lead |
+| CFO / Finance        | Budget burn rate, forecast                      | Monthly financial summary                                                   | Monthly                      | Email                    | 1-trang summary             | PM             |
+| QA Team              | Test requirements, bug priorities               | Bug report, test coverage                                                   | Daily                        | Jira + Slack             | Jira dashboard              | QA Lead        |
 
 **Lưu ý khi dùng Communication Matrix:**
 
@@ -228,6 +234,7 @@ Supportive → Leading: Empower (give them ownership of pieces they care about)
 **Nguyên nhân thực sự:** Thiếu trust (do PM chưa build được), lo lắng về dự án, hoặc đơn giản là management style của họ.
 
 **Cách xử lý:**
+
 - Tăng frequency và quality của updates chủ động → giảm nhu cầu họ hỏi
 - Explicit meeting: "Tôi sẽ gửi daily summary 5pm mỗi ngày để anh/chị luôn updated. Điều đó có đủ để anh/chị comfortable không?"
 - Build trust qua small wins trước — deliver đúng promise nhiều lần liên tiếp
@@ -242,6 +249,7 @@ Supportive → Leading: Empower (give them ownership of pieces they care about)
 **Hậu quả:** Decision bị blocked, dự án bị delay.
 
 **Cách xử lý:**
+
 - Đổi channel: nếu email không hiệu quả → Slack → điện thoại → gặp trực tiếp
 - Rút ngắn request: thay vì "review 20-trang doc", hỏi "cần 5 phút để confirm 1 điểm"
 - Add urgency với deadline rõ ràng: "Tôi cần confirm trước thứ Sáu 17:00 để không delay sprint tiếp theo"
@@ -255,6 +263,7 @@ Supportive → Leading: Empower (give them ownership of pieces they care about)
 **Biểu hiện:** Liên tục thêm yêu cầu mới trong mỗi cuộc họp. "Thêm cái này không khó đâu, chỉ cần..." Không hiểu (hoặc không muốn hiểu) trade-offs.
 
 **Cách xử lý:**
+
 - Có Charter signed với Scope IN/OUT rõ ràng — document is your shield
 - Quy trình change request formal: mọi yêu cầu mới đều phải đi qua "Change Request Form" với impact analysis
 - Nói "yes, and": thay vì "No", nói "Yes, chúng ta có thể thêm. Để đánh giá impact và bổ sung vào plan. Change request sẽ mất khoảng [X] ngày và [Y] cost. Bạn muốn proceed không?"
@@ -267,6 +276,7 @@ Supportive → Leading: Empower (give them ownership of pieces they care about)
 **Biểu hiện:** "Cái này không làm được đâu", "Dự án kiểu này chắc chắn trễ", "Team không đủ năng lực". Thường là người từng bị tổn thương bởi project failures trong quá khứ.
 
 **Cách xử lý:**
+
 - Đừng argue về optimism/pessimism — thay vào đó, hỏi: "Theo bạn, risk lớn nhất là gì? Chúng ta có thể làm gì để address nó?"
 - Convert pessimism thành valuable risk input: "Tôi appreciate bạn thấy những điều tôi có thể bỏ sót. Bạn có thể giúp tôi tạo risk mitigation plan không?"
 - Show early wins: deliver small milestones đúng hẹn để dần dần rebuild trust
@@ -279,6 +289,7 @@ Supportive → Leading: Empower (give them ownership of pieces they care about)
 **Biểu hiện:** Có agenda ẩn. Dự án này liên quan đến power struggles giữa departments. Thay đổi lập trường theo người có mặt trong phòng.
 
 **Cách xử lý:**
+
 - Understand the politics trước khi bắt đầu: hỏi sponsor "Ai có thể không muốn dự án này thành công và tại sao?"
 - Document mọi decisions và agreements bằng văn bản: "Như đã thảo luận trong meeting ngày X, chúng ta đã đồng ý Y. Tôi cc anh/chị trong email này để confirm."
 - Không chọn phe trong internal politics
@@ -293,6 +304,7 @@ Supportive → Leading: Empower (give them ownership of pieces they care about)
 **1. Daily Standup (15 phút)**
 
 Format: Mỗi người nói:
+
 - Hôm qua làm gì?
 - Hôm nay làm gì?
 - Có blocker gì không?
@@ -304,6 +316,7 @@ PM role: Facilitate, ghi lại blockers, follow-up ngay sau standup. Không đ�
 Với stakeholders, không phải với dev team.
 
 Agenda template:
+
 ```
 [5 phút]  Recap từ meeting trước — decisions đã made, actions đã done
 [10 phút] Current status: milestones, % complete, burn rate
@@ -317,6 +330,7 @@ Agenda template:
 Dùng khi cần stakeholder quyết định về trade-off lớn.
 
 Agenda template:
+
 ```
 [10 phút] Context: tại sao cần quyết định này và tại sao bây giờ?
 [20 phút] Analysis: 3 options với pros/cons/recommendation
@@ -326,6 +340,7 @@ Agenda template:
 ```
 
 **Facilitation tips:**
+
 - Gửi agenda trước ít nhất 24 giờ
 - Có "parking lot" cho topics ngoài agenda
 - End meeting với: "Decision made: [X]. Action items: [tên] sẽ làm [Y] trước [date]."
@@ -340,6 +355,7 @@ Agenda template:
 Escalate là khi PM không có authority hoặc resource để resolve issue một mình. Không phải sign of weakness — là sign of good judgment.
 
 Escalate khi:
+
 - Issue ảnh hưởng đến scope/timeline/budget vượt thẩm quyền của PM
 - Conflict giữa stakeholders không tự giải quyết được
 - Risk materializes mà mitigation plan không đủ
@@ -398,16 +414,16 @@ LOW POWER
 
 **Communication Calendar (ví dụ tháng 2/6):**
 
-| Tuần | Hoạt động | Đối tượng | Format |
-|---|---|---|---|
-| Tuần 1, Thứ 3 | Bi-weekly sponsor meeting | COO | 30 phút meeting + 1-page summary |
-| Tuần 1, Thứ 6 | Weekly progress report email | Factory Manager + IT Director | Email với dashboard screenshot |
-| Tuần 2, Thứ 2 | Sprint planning | Dev team | 2 giờ meeting |
-| Tuần 2, Thứ 6 | Weekly progress report email | Factory Manager + IT Director | Email |
-| Tuần 3, Thứ 3 | Milestone demo (M2: Design complete) | Sponsor + Factory Manager + Key users | 1 giờ meeting + live demo |
-| Tuần 3, Thứ 6 | Steering committee report | COO + CFO + IT Director | 15 phút, slide deck 5 trang |
-| Mỗi ngày 9:00 | Daily standup | Dev team + QA + BA | 15 phút |
-| Cuối tháng | Financial summary | CFO | Email, 1 trang |
+| Tuần          | Hoạt động                            | Đối tượng                             | Format                           |
+| ------------- | ------------------------------------ | ------------------------------------- | -------------------------------- |
+| Tuần 1, Thứ 3 | Bi-weekly sponsor meeting            | COO                                   | 30 phút meeting + 1-page summary |
+| Tuần 1, Thứ 6 | Weekly progress report email         | Factory Manager + IT Director         | Email với dashboard screenshot   |
+| Tuần 2, Thứ 2 | Sprint planning                      | Dev team                              | 2 giờ meeting                    |
+| Tuần 2, Thứ 6 | Weekly progress report email         | Factory Manager + IT Director         | Email                            |
+| Tuần 3, Thứ 3 | Milestone demo (M2: Design complete) | Sponsor + Factory Manager + Key users | 1 giờ meeting + live demo        |
+| Tuần 3, Thứ 6 | Steering committee report            | COO + CFO + IT Director               | 15 phút, slide deck 5 trang      |
+| Mỗi ngày 9:00 | Daily standup                        | Dev team + QA + BA                    | 15 phút                          |
+| Cuối tháng    | Financial summary                    | CFO                                   | Email, 1 trang                   |
 
 **Template Email Weekly Status Report:**
 
@@ -442,4 +458,4 @@ Trân trọng,
 
 ---
 
-*Tiếp theo: [case-studies/01-du-an-tre-deadline.md](./case-studies/01-du-an-tre-deadline.md) — Case study thực tế về xử lý dự án trễ deadline*
+_Tiếp theo: [case-studies/01-du-an-tre-deadline.md](./case-studies/01-du-an-tre-deadline.md) — Case study thực tế về xử lý dự án trễ deadline_
