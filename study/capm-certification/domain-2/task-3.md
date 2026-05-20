@@ -83,9 +83,9 @@ Giả sử tại tuần thứ 5:
 
 **Tính toán:**
 
-1. $$\text{CV} = 8,000 - 9,000 = -1,000$$ (Dự án đang **vượt ngân sách $1,000**).
-2. $$\text{SV} = 8,000 - 10,000 = -2,000$$ (Dự án đang **chậm tiến độ** tương đương lượng công việc trị giá $2,000$).
-3. $$\text{CPI} = \frac{8,000}{9,000} \approx 0.89$$ (Hiệu suất chi phí kém: mỗi đồng chi ra chỉ thu lại được 0.89 đồng giá trị).
-4. $$\text{SPI} = \frac{8,000}{10,000} = 0.80$$ (Team chỉ đạt được 80% công suất so với tốc độ yêu cầu trong kế hoạch).
+1. $\text{CV} = 8,000 - 9,000 = -1,000$ (Dự án đang **vượt ngân sách $1,000**).
+2. $\text{SV} = 8,000 - 10,000 = -2,000$ (Dự án đang **chậm tiến độ** tương đương lượng công việc trị giá $2,000$).
+3. $\text{CPI} = \frac{8,000}{9,000} \approx 0.89$ (Hiệu suất chi phí kém: mỗi đồng chi ra chỉ thu lại được 0.89 đồng giá trị).
+4. $\text{SPI} = \frac{8,000}{10,000} = 0.80$ (Team chỉ đạt được 80% công suất so với tốc độ yêu cầu trong kế hoạch).
 
 **Kết luận của PM:** Dự án đang rơi vào tình trạng **xấu** (Chậm tiến độ và Vượt ngân sách). Quản lý Dự án cần phải **rà soát lại Đường găng (Critical Path)** và đưa ra các **hành động khắc phục (Corrective Action)** kịp thời.
